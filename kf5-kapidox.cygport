@@ -1,0 +1,14 @@
+inherit python-distutils
+
+NAME="kf5-kapidox"
+VERSION=5.9.0
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="KDE 5 API documentation tools"
+DESCRIPTION="This framework contains scripts and data for building KDE API
+documentation in a standard format and style."
+HOMEPAGE="http://www.kde.org/"
+SRC_URI="mirror://kde/stable/frameworks/${VERSION%\.*}/kapidox-${VERSION}.tar.xz"
+SRC_DIR="kapidox-${VERSION}"
+
+ARCH=noarch
