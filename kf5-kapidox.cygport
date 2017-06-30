@@ -1,7 +1,7 @@
-inherit python-distutils
+inherit python2-distutils
 
 NAME="kf5-kapidox"
-VERSION=5.27.0
+VERSION=5.35.0
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="KDE 5 API documentation tools"
